@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAqNlBWETLMw_OdV9kMItYbBAiALbNFhQ4",
-    authDomain: "crud-80c45.firebaseapp.com",
-    projectId: "crud-80c45",
-    storageBucket: "crud-80c45.appspot.com",
-    messagingSenderId: "638882286577",
-    appId: "1:638882286577:web:fb20f99ffeac3b6988d250"
-};
+    apiKey: "AIzaSyAxARR5S3x_NzEy4uGIMkhCRbC4ZdAovWs",
+    authDomain: "next-facebook-clone-38adb.firebaseapp.com",
+    projectId: "next-facebook-clone-38adb",
+    storageBucket: "next-facebook-clone-38adb.appspot.com",
+    messagingSenderId: "270208133761",
+    appId: "1:270208133761:web:69bd4047176993274a3b80"
+  };
 
 export const app = initializeApp(firebaseConfig);
 export const database = getFirestore(app);

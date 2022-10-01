@@ -6,3 +6,9 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
+
+@layer components{
+  .my-global-icon{
+      @apply hidden xl:inline-flex p-2 h-10 w-10 flex items-center justify-center bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray-300 
+  }
+}
